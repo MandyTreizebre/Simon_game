@@ -1,0 +1,53 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-button {
+    background-color: green;
+    border-radius: 150px 0 0 0;
+    border: none;
+}
+
+.red-button {
+    background-color: red;
+    border-radius: 0 150px 0 0;
+    border: none;
+}
+
+.yellow-button {
+    background-color: yellow;
+    border-radius: 0 0 0 150px;
+    border: none;
+}
+
+.blue-button {
+    background-color: blue;
+    border-radius: 0 0 150px 0;
+    border: none;
+}
+
+.play-button {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.play-button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
+
+.brightness {
+    background-color: white;
+}
+
+.opacity {
+    opacity: 50;
+}
